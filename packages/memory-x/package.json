@@ -1,0 +1,36 @@
+{
+	"name": "memory-x",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Memory-X/memory-x",
+		"directory": "packages/memory-x"
+	},
+	"scripts": {
+		"build": "unbuild",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"main": "dist/index.cjs",
+	"module": "dist/index.mjs",
+	"keywords": [],
+	"exports": {
+		".": {
+			"import": {
+				"types": "./dist/index.d.ts",
+				"default": "./dist/index.mjs"
+			},
+			"require": {
+				"types": "./dist/index.d.cts",
+				"default": "./dist/index.cjs"
+			}
+		}
+	},
+	"devDependencies": {
+		"@repo/typescript-config": "workspace:*"
+	},
+	"dependencies": {
+		"unbuild": "^3.5.0"
+	}
+}
