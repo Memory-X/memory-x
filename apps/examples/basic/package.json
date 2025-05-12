@@ -1,0 +1,20 @@
+{
+	"name": "basic",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/index.ts",
+	"scripts": {
+		"dev": "node dist/index.cjs",
+		"build": "unbuild"
+	},
+	"dependencies": {
+		"memory-x": "workspace:*"
+	},
+	"devDependencies": {
+		"@repo/typescript-config": "workspace:*",
+		"unbuild": "^3.5.0"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
