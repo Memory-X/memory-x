@@ -1,3 +1,4 @@
+import type { VectorStoreAddOptions, VectorStoreSearchOptions } from "../types/options.js";
 import type { VectorStore } from "../types/vector-store.js";
 
 export class InMemory implements VectorStore {
@@ -7,12 +8,12 @@ export class InMemory implements VectorStore {
 		this.store = {};
 	}
 
-	async add(key: string, value: string) {
-		this.store[key] = value;
+	async add({ userId, message }: VectorStoreAddOptions) {
+		this.store[userId] = message;
 	}
 
-	async search(key: string, _value: string) {
-		const result = this.store[key];
+	async search({ userId, query }: VectorStoreSearchOptions) {
+		const result = this.store[userId];
 
 		if (!result) {
 			return "";

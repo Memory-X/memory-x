@@ -1,6 +1,17 @@
 import type { VectorStore } from "./vector-store.js";
 
 export interface MemoryOptions {
-	userId: string;
 	vectorStore: VectorStore;
+}
+
+interface VectorStoreOptions {
+	userId: string;
+}
+
+export interface VectorStoreAddOptions extends VectorStoreOptions {
+	message: string;
+}
+
+export interface VectorStoreSearchOptions extends VectorStoreOptions {
+	query: string;
 }
