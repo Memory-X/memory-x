@@ -7,11 +7,11 @@ export class InMemory implements VectorStore {
 		this.store = {};
 	}
 
-	add(key: string, value: string) {
+	async add(key: string, value: string) {
 		this.store[key] = value;
 	}
 
-	search(key: string, _value: string) {
+	async search(key: string, _value: string) {
 		const result = this.store[key];
 
 		if (!result) {

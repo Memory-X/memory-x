@@ -11,10 +11,10 @@ export class MemoryX {
 	}
 
 	async add(value: string): Promise<void> {
-		this.vectorStore.add(this.userId, value);
+		await this.vectorStore.add(this.userId, value);
 	}
 
 	async search(value: string): Promise<string> {
-		return this.vectorStore.search(this.userId, value);
+		return await this.vectorStore.search(this.userId, value);
 	}
 }
