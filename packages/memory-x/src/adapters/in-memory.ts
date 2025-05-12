@@ -1,4 +1,7 @@
-import type { VectorStoreAddOptions, VectorStoreSearchOptions } from "../types/options.js";
+import type {
+	VectorStoreAddOptions,
+	VectorStoreSearchOptions,
+} from "../types/options.js";
 import type { VectorStore } from "../types/vector-store.js";
 
 export class InMemory implements VectorStore {
