@@ -10,5 +10,5 @@ export default defineBuildConfig({
 	declaration: true,
 	outDir: "dist",
 	clean: false,
-	entries: ["./src/index.ts"],
+	entries: ["./src/index.ts", "./src/adapters/index.ts"],
 });
