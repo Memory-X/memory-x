@@ -1,1 +1,1 @@
-export * from "./create/create-memory.js";
+export * from "./create/create-memory";
