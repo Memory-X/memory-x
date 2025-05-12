@@ -39,9 +39,7 @@
 		}
 	},
 	"devDependencies": {
-		"@repo/typescript-config": "workspace:*"
-	},
-	"dependencies": {
+		"@repo/typescript-config": "workspace:*",
 		"unbuild": "^3.5.0"
 	}
 }
