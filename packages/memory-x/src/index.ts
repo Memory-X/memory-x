@@ -1,1 +1,1 @@
-export const hello = () => console.log("Hello World!");
+export * from "./create/create-memory.js";
