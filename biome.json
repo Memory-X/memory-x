@@ -10,6 +10,7 @@
 		"ignore": [
 			"dist",
 			"build",
+			"docs/api",
 			".next",
 			"package.json",
 			".contentlayer",
