@@ -11,6 +11,7 @@
 	"scripts": {
 		"build": "unbuild",
 		"typecheck": "tsc --noEmit",
+		"api-docs": "typedoc --tsconfig tsconfig.json",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"main": "dist/index.cjs",
@@ -40,6 +41,7 @@
 	},
 	"devDependencies": {
 		"@repo/typescript-config": "workspace:*",
+		"typedoc": "^0.28.4",
 		"unbuild": "^3.5.0"
 	}
 }

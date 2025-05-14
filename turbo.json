@@ -20,6 +20,10 @@
 		"typecheck": {
 			"outputs": [],
 			"cache": true
+		},
+		"api-docs": {
+			"outputs": [],
+			"cache": true
 		}
 	}
 }

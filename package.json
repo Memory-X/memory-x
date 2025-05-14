@@ -8,7 +8,8 @@
 		"format": "biome format . --write",
 		"lint": "biome check .",
 		"lint:fix": "biome check . --write",
-		"typecheck": "turbo typecheck"
+		"typecheck": "turbo typecheck",
+		"api-docs": "turbo run api-docs"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",

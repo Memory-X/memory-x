@@ -1,0 +1,10 @@
+{
+	"$schema": "https://typedoc.org/schema.json",
+	"excludePrivate": true,
+	"excludeInternal": true,
+	"entryPoints": [
+		"./src/index.ts",
+		"./src/adapters/index.ts"
+	],
+	"out": "../../apps/docs/api/"
+}
