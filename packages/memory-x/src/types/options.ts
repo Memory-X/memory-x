@@ -1,4 +1,4 @@
-import type {createMemory} from "../create/create-memory.js";
+import type { createMemory } from "../create/create-memory.js";
 import type { VectorStore } from "./vector-store.js";
 
 /**

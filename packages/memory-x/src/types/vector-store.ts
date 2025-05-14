@@ -36,5 +36,3 @@ export interface VectorStore {
 	 */
 	search({ userId, query }: VectorStoreSearchOptions): Promise<string>;
 }
-
-
