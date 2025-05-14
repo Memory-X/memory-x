@@ -4,6 +4,16 @@ import type {
 } from "../types/options.js";
 import type { VectorStore } from "../types/vector-store.js";
 
+/**
+ * InMemory is a simple in-memory vector store adapter.
+ *
+ * @remarks
+ * This class is a simple in-memory vector store adapter that stores messages in memory.
+ * It is used for testing and demonstration purposes.
+ *
+ * @public
+ * @beta
+ */
 export class InMemory implements VectorStore {
 	private store: Record<string, string> = {};
 
