@@ -1,11 +1,11 @@
-import type { MemoryX } from "../core/memory.js";
+import type {createMemory} from "../create/create-memory.js";
 import type { VectorStore } from "./vector-store.js";
 
 /**
  * The options for the MemoryX instance.
  *
  * @remarks
- * This interface defines the options that can be passed to the MemoryX constructor. {@link MemoryX}
+ * This interface defines the options that can be passed to the MemoryX constructor. {@link createMemory}
  *
  * @public
  */
