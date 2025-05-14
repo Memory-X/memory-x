@@ -55,3 +55,6 @@ jobs:
 
       - name: Typecheck
         run: pnpm typecheck
+      
+      - name: API Docs
+        run: pnpm api-docs
