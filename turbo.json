@@ -23,7 +23,7 @@
 		},
 		"api-docs": {
 			"outputs": [],
-			"cache": true
+			"cache": false
 		}
 	}
 }
