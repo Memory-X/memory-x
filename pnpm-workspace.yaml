@@ -1,4 +1,8 @@
 packages:
-  - "apps/*"
-  - "apps/examples/*"
-  - "packages/*"
+  - apps/*
+  - apps/examples/*
+  - apps/docs/*
+  - packages/*
+ignoredBuiltDependencies:
+  - '@tailwindcss/oxide'
+  - sharp
